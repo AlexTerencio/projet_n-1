@@ -65,9 +65,9 @@ void modification() {
             monFlux << "Né le: " << birthday << "/" << birthmonth << "/" << birthyear << endl;
             monFlux << "Age: " << Age << endl;
 
-            cout << "Profil modifié avec succès." << endl;
+            cout << "Profil modifie avec succes." << endl;
         } else {
-            cerr << "Erreur lors de l'ouverture du fichier pour écriture." << endl;
+            cerr << "Erreur lors de l'ouverture du fichier pour ecriture." << endl;
         }
     } else {
         cerr << "Erreur : Fichier introuvable." << endl;

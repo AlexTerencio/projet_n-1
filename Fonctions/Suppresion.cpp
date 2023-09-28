@@ -26,7 +26,7 @@ void suppresion()
     getline(cin, NomFichier);
 
     string CheminFichier = "C:/Users/alext/projects/projet_n-1/Profils/" + NomFichier + ".txt";
-    cout << "Le profil selectionné est celui de " << NomFichier << "." << endl;
+    cout << "Le profil selectionne est celui de " << NomFichier << "." << endl;
     cout << "Etes vous sure de vouloir le supprimer?" << endl;
     cout << "Ce changement sera irreversible." << endl;
     cout << "1 = Supprimer, 0 = annule" << endl;
@@ -36,10 +36,6 @@ void suppresion()
         if (std::remove(CheminFichier.c_str()) == 1) // Suppression du fichier
         {
             std::cout << "Profil supprime." << std::endl;
-        }
-        else
-        {
-            std::cerr << "Erreur lors de la suppression du profil." << std::endl;
         }
     }
     else
